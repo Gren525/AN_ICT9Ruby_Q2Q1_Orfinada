@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Containers Demo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style> 
+    body { 
+      background-color: #121212; 
+      color: #ffffff; 
+      font-family: Arial, sans-serif; 
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+    }
+    .Header {  
+      background-color: #000000;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      border: 1px solid white; 
+    }
+    .border { 
+      border: 1px solid white;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="Header"> 
+    <h1 class="text-center mb-3"><strong>Crypto Currency Research</strong></h1>
+    <p class="text-center mb-3">By Jacob Orfinada <br> (Click on the buttons for the site.)</p>
+  </div>
+  <div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      Cryptocurrency is a highly unreliable and prices fluctuate often, please do your research first before making any purchases. <br>  
+      For more information, please go to <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency"><span>this site for more info.</span></a>
+      <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+    </div>
+    <br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3"> 
+          <img src="dogecoin.png" class="img-fluid mb-2">
+          <a href="https://dogecoin.com/"><button class="btn btn-dark"><h1>Dogecoin</h1></button></a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+          <div class="border"> 
+            <h1>Dogecoin</h1>
+          </div>
+          <div class="border"> 
+            <h3>Dogecoin (DOGE) is an open-source, peer-to-peer cryptocurrency that was made as a parody of the crypto market following the establishment of Bitcoin. It was originally created as a light-hearted joke for crypto enthusiasts, but it quickly exploded to be one of the leading cryptocurrencies in use today.</h3>
+          </div> 
+          <div class="border">
+            <h2>Value: 23.23 PHP / 0.39 USD</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3"> 
+          <img src="ethereum.png" class="img-fluid mb-2">
+          <a href="https://coinmarketcap.com/currencies/ethereum/"><button class="btn btn-dark"><h1>Ethereum</h1></button></a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+          <div class="border"> 
+            <h1>Ethereum</h1>
+          </div>
+          <div class="border"> 
+            <h3>Ethereum is a decentralized blockchain platform that establishes a peer-to-peer network that securely executes and verifies application code, called smart contracts. Smart contracts allow participants to transact with each other without a trusted central authority.</h3>
+          </div> 
+          <div class="border">
+            <h2>Value: 197,518.14 PHP / 3,351.46 USD</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3"> 
+          <img src="solana.webp" class="img-fluid mb-2">
+          <a href="https://coinmarketcap.com/currencies/solana/"><button class="btn btn-dark"><h1>Solana</h1></button></a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
+          <div class="border"> 
+            <h1>Solana</h1>
+          </div>
+          <div class="border"> 
+            <h3>Solana is an open infrastructure for building scalable crypto apps. The architecture is censorship-resistant, fast, and secure, and designed to facilitate global adoption. To keep time on the blockchain, Solana employs an innovative process known as Proof of History.</h3>
+          </div> 
+          <div class="border">
+            <h2>Value: 15,328.59 PHP / 260.08 USD</h2>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
